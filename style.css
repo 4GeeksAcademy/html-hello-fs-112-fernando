@@ -1,0 +1,59 @@
+.main-header {
+    text-align: center;
+    margin-top: 0px;
+    height: 7dvh;
+}
+
+.aling-end {
+    margin-left: auto;
+    margin-top: 2dvh;
+    margin-right: 1dvh;
+    opacity: 0.5;
+}
+
+/*Comienzo estilos del container para el post*/
+
+.post {
+    border: solid 1pt black;
+    border-radius: 5px;
+    width: 50dvh;
+}
+
+/*Fin estilos del container para el post*/
+
+
+/*Comienzo estilos post header*/
+
+.post-header {
+    display: flex;
+    margin-left: 2dvh;
+    margin-right: 2dvh;
+}
+
+.post-header h1 {
+    margin-left: 2dvh;
+}
+
+/*Fin estilos post header*/
+
+/*Comienzo estilos contenido post*/
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15dvh;
+}
+
+main img {
+    width: 100%;
+    height: auto;
+}
+
+/*Fin estilos contenido post*/
+
+/*Comienzo zona comentarios post*/
+footer {
+    margin: 3dvh;
+}
+
+/*Fin zona comentarios post*/
